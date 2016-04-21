@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -Dserver.port=$PORT -jar target/dt-service-template-*.jar --spring.profiles.active=heroku
+web: java $JAVA_OPTS -Dserver.port=$PORT -jar target/dt-arch-conf-*.jar --spring.profiles.active=heroku

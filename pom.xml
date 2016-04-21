@@ -4,12 +4,12 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.dutytrail.service.template</groupId>
-	<artifactId>dt-service-template</artifactId>
+	<groupId>com.dutytrail.arch.conf</groupId>
+	<artifactId>dt-arch-conf</artifactId>
 	<version>1.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>Dutytrail - Service Template</name>
+	<name>Dutytrail - Arch Conf</name>
 
     <parent>
         <groupId>org.springframework.cloud</groupId>
