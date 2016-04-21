@@ -8,12 +8,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ServiceTemplateService {
 
-    @Value("${ping.alive}")
-    private String configPingAlive;
+//    @Value("${ping.alive}")
+//    private String configPingAlive;
 
     @RequestMapping(value = "/ping", method = RequestMethod.GET, produces = "application/json")
     public String ping() {
-        return "Service Template -> Alive \nConfig Profile: "+this.configPingAlive;
+//        return "Service Template -> Alive \nConfig Profile: "+this.configPingAlive;
+        return "Service Template -> Alive \nConfig Profile: ";
     }
 
 }
