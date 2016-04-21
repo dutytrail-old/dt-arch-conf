@@ -1,4 +1,4 @@
-package com.dutytrail.service.template.server;
+package com.dutytrail.arch.conf.server;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -9,7 +9,7 @@ public class ArchConfService {
 
     @RequestMapping(value = "/ping", method = RequestMethod.GET, produces = "application/json")
     public String ping() {
-        return "Service Template -> Alive \nConfig Profile: ";
+        return "Dutytrail Arch Conf is UP...";
     }
 
 }

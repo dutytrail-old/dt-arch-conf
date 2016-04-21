@@ -1,4 +1,4 @@
-package com.dutytrail.service.template.starter;
+package com.dutytrail.arch.conf.starter;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
