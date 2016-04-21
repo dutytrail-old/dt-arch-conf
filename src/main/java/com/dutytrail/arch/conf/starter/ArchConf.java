@@ -10,8 +10,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @EnableAutoConfiguration
 @EnableEurekaClient
-@ComponentScan(basePackages = {"com.dutytrail.service.template"})
-@EnableFeignClients(basePackages = {"com.dutytrail.service.template"})
+@ComponentScan(basePackages = {"com.dutytrail.arch.conf"})
 public class ArchConf {
 
   public static void main(String[] args) {
