@@ -11,6 +11,13 @@
 
 	<name>Dutytrail - Service Template</name>
 
+    <parent>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-parent</artifactId>
+        <version>Angel.SR6</version>
+        <relativePath />
+    </parent>
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<start-class>com.dutytrail.service.template.starter.ServiceTemplate</start-class>
@@ -159,6 +166,7 @@
 					</includes>
 				</configuration>
 			</plugin>
+
 		</plugins>
 	</build>
 
