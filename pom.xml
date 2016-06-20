@@ -119,6 +119,7 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
 	<dependencies>
 
         <!--Third Parties -->
