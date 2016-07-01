@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: dtarchconf
+  profiles:
+    active: ${ARCH_ENV:local}
+  cloud:
+    config:
+      profile: ${ARCH_ENV:local}
+      enabled: false
+      server:
+        git:
+          uri: https://github.com/dutytrail/dt-config-files.git
+          username: joantolos
+          password: '{cypher}2ebad0e8744456a1acb690db03c17353117420e8690c3badc932cab431be493b'
+          searchPaths: local,heroku
+
+encrypt:
+  key: AllWorkAndNoPlayMakesJackADullBoy
+
+security:
+  user:
+    password: '{cypher}6c9e10c3866a6fc012c2787c54a067acf6b43012a419942b77af5fc752be5a4e4b72b394bad610c87e026e6b07990abc04d5136425c62809b5901cb6579571c0'
