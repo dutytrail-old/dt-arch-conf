@@ -175,7 +175,6 @@
 	</dependencies>
 
     <repositories>
-
         <repository>
             <id>spring-snapshots</id>
             <name>Spring Snapshots</name>
